@@ -1,0 +1,14 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> . 
+@prefix sp: <http://lod.srmt.nitech.ac.jp/socprob/> .
+@prefix tag: <http://lod.srmt.nitech.ac.jp/tag/> .
+@prefix oa: <http://www.w3.org/ns/oa#> .
+@prefix geojp: <http://geonames.jp/resource/> .
+
+tag:1 rdf:type oa:Annotation;
+  oa:hasTarget <https://www.nikkei.com/article/DGXMZO24103660Q7A131C1CN8000/>;
+  oa:hasBody sp:パワーハラスメント;
+  oa:motivatedBy oa:tagging.
+tag:2 rdf:type oa:Annotation;
+  oa:hasTarget <https://www.nikkei.com/article/DGXMZO24103660Q7A131C1CN8000/>;
+  oa:hasBody geojp:愛知県名古屋市;
+  oa:motivatedBy oa:tagging.
