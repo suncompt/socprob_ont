@@ -4,11 +4,11 @@
 @prefix oa: <http://www.w3.org/ns/oa#> .
 @prefix geojp: <http://geonames.jp/resource/> .
 
-tag:1 rdf:type oa:Annotation;
-  oa:hasTarget <https://www.nikkei.com/article/DGXMZO24103660Q7A131C1CN8000/>;
-  oa:hasBody sp:パワーハラスメント;
+tag:401 rdf:type oa:Annotation;
+  oa:hasTarget <https://www.pref.aichi.jp/police/anzen/cyber/index.html>;
+  oa:hasBody sp:インターネット犯罪;
   oa:motivatedBy oa:tagging.
-tag:2 rdf:type oa:Annotation;
-  oa:hasTarget <https://www.nikkei.com/article/DGXMZO24103660Q7A131C1CN8000/>;
-  oa:hasBody geojp:愛知県名古屋市;
+tag:402 rdf:type oa:Annotation;
+  oa:hasTarget <https://www.pref.aichi.jp/police/anzen/cyber/index.html>;
+  oa:hasBody geojp:愛知県;
   oa:motivatedBy oa:tagging.
